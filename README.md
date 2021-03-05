@@ -2,8 +2,9 @@
 
 ### GUI: https://phonebook-react-application.herokuapp.com/
 
+
 ### API: https://phonebook-react-application.herokuapp.com/persons/
 
  
  
-#### firstName, lastName and Phone are mandatory fields the Email is optional
+#### firstName, lastName and Phone are mandatory fields, the Email is optional.
