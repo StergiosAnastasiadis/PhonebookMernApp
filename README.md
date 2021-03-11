@@ -1,4 +1,4 @@
-## PhoneBook Web Applicattion using the MERN Stack
+## PhoneBook Web Application using the MERN Stack
 
 ### GUI: https://phonebook-react-application.herokuapp.com/
 
