@@ -7,4 +7,4 @@
 
  
  
-#### firstName, lastName and Phone are mandatory fields, the Email is optional.
+#### firstName, lastName and phone are mandatory fields, the Email is optional.
