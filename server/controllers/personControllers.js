@@ -52,7 +52,7 @@ const deletePerson = (req, res) => {
       res.send(err);
     }
     res.json({
-      message: "Successfully deleted player"
+      message: "Successfully deleted person"
     });
   });
 };
