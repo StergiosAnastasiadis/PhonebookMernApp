@@ -17,7 +17,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const url = "https://phonebook-react-application.herokuapp.com/persons"; // http://localhost:4000/persons
+    const url = "https://phonebook-react-application.herokuapp.com/persons";
 
     axios
       .get(url)
