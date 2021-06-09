@@ -1,6 +1,5 @@
 const path = require("path");
 const express = require("express");
-const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const routes = require("./routes/phonebookRoutes");
@@ -10,13 +9,13 @@ const PORT = process.env.PORT || 4000;
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(process.env.DATABASE_URL, {
+mongoose.connect(process.env.DATABASE_URL || "localhost:", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({extended: true}));
+app.use(express.json());
 
 app.use(express.static("../frontend/build"));
 
